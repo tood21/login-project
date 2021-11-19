@@ -1,0 +1,70 @@
+.sns-login__button {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #767676;
+  background: #ffffff;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.google-login__button::after,
+.facebook-login__button::after,
+.naver-login__button::after,
+.kakao-login__button::after {
+  content: "";
+  background-image: url(../images-login/icon_google.png);
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin-left: 12px;
+}
+
+.facebook-login__button::after {
+  background: no-repeat center url(../images-login/icon_facebook.png);
+}
+
+.naver-login__button::after {
+  background-image: url(../images-login/icon_naver.png);
+}
+
+.kakao-login__button::after {
+  background-image: url(../images-login/icon_kakao.png);
+}
+
+.facebook-login__button {
+  border: 1px solid #2d9cdb;
+}
+.naver-login__button {
+  border: 1px solid #00bf18;
+}
+
+.kakao-login__button {
+  border: 1px solid #f2c94c;
+}
+
+.login-button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #2f80ed;
+  color: #fff;
+  padding: 14px 0;
+  border-radius: 5px;
+}
+
+.info-input {
+  font: 16px;
+  line-height: 20px;
+  padding: 15px 0 15px 16px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

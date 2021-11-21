@@ -12,10 +12,7 @@
   text-align: center;
 }
 
-.google-login__button::after,
-.facebook-login__button::after,
-.naver-login__button::after,
-.kakao-login__button::after {
+.sns-login__button::after {
   content: "";
   background-image: url(../images-login/icon_google.png);
   width: 22px;
@@ -56,6 +53,13 @@
   color: #fff;
   padding: 14px 0;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
 }
 
 .info-input {
@@ -67,4 +71,27 @@
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 5px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.module-input.module-input__id.error .info-input {
+  border: 2px solid #f4492e;
+}
+
+.module-input .error-massage {
+  display: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f4492e;
+  margin: 6px 0 0 4px;
+}
+
+.module-input.error .error-massage {
+  display: block;
+}
+
+.module-input + .module-input {
+  margin-top: 10px;
 }
